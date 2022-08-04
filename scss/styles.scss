@@ -1,0 +1,51 @@
+#gridNav {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "productos productos productos"
+    "footer footer footer";
+    grid-template-rows: repeat(2fr);
+    grid-template-columns: 20% auto 15%;
+                                        header {
+                                            position:static;
+                                            top: 0;
+                                            z-index: 1;
+                                            text-align: center;
+                                            margin-right: 25px;
+                                            padding: 25px;
+                                            background-color: grey;
+                                            justify-content: center;
+                                            margin-bottom: 20px;
+                                        }                                     
+    }   
+
+#footer {
+    height: 100px;
+    background-color: grey;
+                            ul {
+                                ol {
+                                    instagram {
+                                            img {
+                                                height: 40px;
+                                        width: 40px;
+                                        position: sticky;
+                                        bottom: 0px;
+                                        right: 100px;
+                                        display: flex;
+                                            }
+                                        
+                                    }
+                                    whatsapp {
+                                        img {
+                                            display: flex;
+                                            position: sticky;
+                                            bottom: 0px;
+                                            left: 1290px;
+                                            height: 40px;
+                                            width: 40px;
+                                    }       }
+                                
+                                }
+                            }
+}
